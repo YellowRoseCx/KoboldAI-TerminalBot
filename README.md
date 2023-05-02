@@ -5,3 +5,9 @@ KoboldAI API usage example - Runs a chat interface in terminal that can also gen
 
 
 Uses Viu https://github.com/atanunq/viu
+
+
+To use: Open up KoboldAI and load a model.
+Start terminalbot from terminal with "python terminalbot.py" and text generation will work.
+
+If you want to use /draw you'll need to open up Stable Diffusion with --api and load a model then terminalbot will be able to make requests to it
