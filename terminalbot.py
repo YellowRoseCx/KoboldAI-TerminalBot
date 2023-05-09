@@ -16,7 +16,7 @@ viu_url = "https://github.com/atanunq/viu/releases/download/v1.4.0/viu"
 #Get Viu Check if the file exists
 if not os.path.isfile("viu"):
     # Download the file
-    urllib.request.urlretrieve(url, "viu")
+    urllib.request.urlretrieve(viu_url, "viu")
     # Give execute permission
     os.chmod("viu", 0o755)
 else:
